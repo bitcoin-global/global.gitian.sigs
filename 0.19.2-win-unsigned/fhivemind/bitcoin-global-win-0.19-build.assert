@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    6ea1b580106ca0132931faf09d8f2a927aadc926310b627e4b7de97516e60343  bitcoin-global-0.19.2-win-unsigned.tar.gz
-    f442f322a4afd8bd715b255b8da6cf023cafdd84ccc3e2093842643dc70a95f6  bitcoin-global-0.19.2-win64-debug.zip
-    4e3fe1d5a5b4ac07e6a3c6b11a3daf7fc7e6cf6f20e516482b12a920b030f837  bitcoin-global-0.19.2-win64-setup-unsigned.exe
-    059fb35fadac9d885f927217a3709f84c474ccc5940b79bc5e6c5e1501fe983b  bitcoin-global-0.19.2-win64.zip
-    6ee88d13a542258b4402d435156c8a9e25fd8934ec95b857e3da7c9f8b0e71f9  src/bitcoin-global-0.19.2.tar.gz
+    9adb31ae9f8db73e5cfe11921fc335bad8ad71c15a13a7e2af59b28d6c27de76  bitcoin-global-0.19.2-win-unsigned.tar.gz
+    0c8885693d4d7ee993c44d637597701b2c0f486dc37742f905efbd053e3ba21d  bitcoin-global-0.19.2-win64-debug.zip
+    00a65731e0320500871e00585c77c0a5fdb8d2d51a8eecf39ad9b878cf5a4f4e  bitcoin-global-0.19.2-win64-setup-unsigned.exe
+    6bf2c6017fd6068664709e7dfffc672626ab9d9d120a9fb7c51ce68b8b3d5440  bitcoin-global-0.19.2-win64.zip
+    a461351cac27d8fd010e753d6d170d9ee45a592b999939a8c4d64fa9abeba412  src/bitcoin-global-0.19.2.tar.gz
 - in_manifest: |-
     fa7685055b3fb553c7f0694822236b1405ec14f3c0c0786307bbacd13a2f9c52  bitcoin-global-win-0.19-desc.yml
-    git:dff7faaa597f75d2601f69c79ed38221f6cb2e33 bitcoin-global
+    git:1bbfd7847a5d8c8352bf8d4929b511fa57faad2c bitcoin-global
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -332,9 +332,9 @@
       8efffc8297cd3d6a86835417abd071b1eacacd1683780297d8d7b149816324b4  libpython3-stdlib_3.6.5-3_amd64.deb
       34f8ea2689b6744a603758154d5c2c25deb25e4d7282ed972738bfe0684b4f26  libpython3-stdlib_3.6.7-1~18.04_amd64.deb
       ce512b47c542886ab93a2667f6ea90edfa063eb0bc5d6a9ac782dfa44e201be2  libpython3.6-minimal_3.6.5-3_amd64.deb
-      d12e9823bfc6fd96d9545b13950837ad7fd58bc07919b4d28d9a481f0d51c930  libpython3.6-minimal_3.6.9-1~18.04ubuntu1_amd64.deb
+      c2e7663624226088290e04560d97a36b9d49320809d8bd1280956cc52e1e27e1  libpython3.6-minimal_3.6.9-1~18.04ubuntu1.1_amd64.deb
       ff164729742f8e8cfc1024d6b62d9d7dff64761a0a83ed6028e44dc6dfa6a618  libpython3.6-stdlib_3.6.5-3_amd64.deb
-      18dc6c871a8e9cd3dcca9aaade7d1874f73180ace561a47542cf3cbc3afa882f  libpython3.6-stdlib_3.6.9-1~18.04ubuntu1_amd64.deb
+      5f9804f17855f07e704ed98accf3e156a604b6ef1543b09fd552e8d385581638  libpython3.6-stdlib_3.6.9-1~18.04ubuntu1.1_amd64.deb
       e06e02b5f1c7bb418ba2f3c6d1ec9f64368178f8f6e5e937d7bbc8017fc8923e  libquadmath0_8-20180414-1ubuntu2_amd64.deb
       38812adfb8b4376c32ee3457ab77bd6098f3404e1b39321c24b8714bcee1fcf2  libquadmath0_8.4.0-1ubuntu1~18.04_amd64.deb
       8706403267e95615f1b70db31ff16709361982728b308466346e01c20a743dd5  libreadline7_7.0-3_amd64.deb
@@ -394,7 +394,7 @@
       ca52a957fae55f7499cb2b862fa1955303ca2a9eb6c7d5f463fadb1c48dcdbd7  libzstd1_1.3.3+dfsg-2ubuntu1_amd64.deb
       7c269c1acefd5cca185a583714c0055961063a8a0d211a33a7d6d3b6fd71062b  linux-base_4.5ubuntu1.2_all.deb
       cbcfa830664e90769caad94bb82d760d7927b75cb293586123354e043725ecf8  linux-base_4.5ubuntu1_all.deb
-      c7a4dbde7d78b867a00bf44686243f4b388e8949525ea9d854634aafb7747145  linux-libc-dev_4.15.0-111.112_amd64.deb
+      d13b841123313339828e19ea2116160206fe3cce1b5111db23e2bd08cf673688  linux-libc-dev_4.15.0-112.113_amd64.deb
       4a73fc5ea2d0284e9c9c84cba68cbe5880505afbae0a3201c65c336daf8f8239  linux-libc-dev_4.15.0-20.21_amd64.deb
       20d1d8956e0fb6a18886bb29b1152e702c9a0fec0dc493b82069979b67fa0d19  locales_2.27-3ubuntu1.2_all.deb
       315d6ee1c21ca410dec962affd563528ee4bc1ec8b9fdab5755f74236658d374  locales_2.27-3ubuntu1_all.deb
@@ -460,9 +460,9 @@
       7a0e008e7407096d52a177ed39d3f8e9e234105e0d8685efa97976f50412ccd2  python3-netifaces_0.10.4-0.1build4_amd64.deb
       6c893d278b4e5a4a02289633c1867cd64ae33fa9ce31b351d2b8e6c63f7d8449  python3-yaml_3.12-1build2_amd64.deb
       a033297a970487552f82a210df18b206ddc465627e68ddcbad2603818083d946  python3.6-minimal_3.6.5-3_amd64.deb
-      6ea7828a83de9ee539b491527045d2a0a66d4e105528325bbe43917fb635da14  python3.6-minimal_3.6.9-1~18.04ubuntu1_amd64.deb
+      802922343c443438bab007cb2fc7f8a7f059474d7f65aa867234cdf0a066e5c8  python3.6-minimal_3.6.9-1~18.04ubuntu1.1_amd64.deb
       98ee1f9e9b6feb8be0e7e45a3d037b573932a693333f618272c36441b2dd6b84  python3.6_3.6.5-3_amd64.deb
-      f0f59ebe6d9f38189d1d098af329b7d0945d15eb40dd7acb1446c57d3a7a0420  python3.6_3.6.9-1~18.04ubuntu1_amd64.deb
+      6c05bbe1afba3cb6b9b902a38fd5a12c8d8b38aaaffd14a509b3ebfbbfba069c  python3.6_3.6.9-1~18.04ubuntu1.1_amd64.deb
       cdc58a9d2abbf17ce9a6892724f6008f0a5a98eea9f9b788eb3fef757f8c4b52  python3_3.6.5-3_amd64.deb
       6823addff8bc3d89115512ba786e929ff6c072c4eaedcfc89d6ba6a450ac4902  python3_3.6.7-1~18.04_amd64.deb
       84cb3642c82114496d2fc17011db13655bd661cf4641098c03c168ddde367908  readline-common_7.0-3_all.deb
@@ -559,24 +559,24 @@
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    0e2448521ca20dfa13416e30dae76ee707c7f4971f6d9b7ef447c99a1bb11e48  x86_64-w64-mingw32/bdb/bdb-4.8.30-64283512271.tar.gz
-    86e185501e98951d39d3b7e5f52e0b12fe0bbfdacd4aa59866c406aaad680a15  x86_64-w64-mingw32/bdb/bdb-4.8.30-64283512271.tar.gz.hash
-    f503a3e293d76d3f08c248ca05625afb505ac0419cb17fecf9fa5d7afa865f34  x86_64-w64-mingw32/boost/boost-1_70_0-b493ba0d7b6.tar.gz
-    1ffd417a01598687d19c7f517c6f17dd51ecba156237e75445524675c56ae3cc  x86_64-w64-mingw32/boost/boost-1_70_0-b493ba0d7b6.tar.gz.hash
-    caed19b51c0b675b854ae7d0397c67659f0929e0df2cbd0990929ee7b62858a3  x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-8f8ced173ad.tar.gz
-    3a8763eaaaadfd23a74b6ade4b56fc20d6c160714c4a24616b668ec77751a58f  x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-8f8ced173ad.tar.gz.hash
-    b2bc76aa65934c9223d66cea08c97c0725a8e94899c4ec3f90e2ef9a5d95b09e  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-d1127027bd2.tar.gz
-    afebf236d7308321fc50c40343933b8fcd50129e4744da52bd42c08af7f9b0d7  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-d1127027bd2.tar.gz.hash
-    2dd7188dc4105c54fc1c7ab8143f7031b8fbc2357e3293e76abb8b32491632d9  x86_64-w64-mingw32/openssl/openssl-1.0.1k-a939347882b.tar.gz
-    c9d4435e64dbe3b82ca7152f2f466169e8b6996ceb6d8e8045f2bbb299e18ddd  x86_64-w64-mingw32/openssl/openssl-1.0.1k-a939347882b.tar.gz.hash
-    c110407dd75bdacf9bcc8baaf855b0ed6df4aafa8eca822cd144f662bba1b8c0  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-47c716cf4e2.tar.gz
-    f583535c2a9308adacba555840e2aa60fffde8b2affcfc7797adc5fe45cce624  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-47c716cf4e2.tar.gz.hash
-    dd08d6d8cb0531a616b530326b96e2a18c55ceb9710bf2c68c5b8d019f8e8268  x86_64-w64-mingw32/qt/qt-5.9.8-e226a5e0a14.tar.gz
-    72122041a698ef8b98569640e396ffc33dd9ec0d7ffd0698a0c2eac34c768f57  x86_64-w64-mingw32/qt/qt-5.9.8-e226a5e0a14.tar.gz.hash
-    a7f82ca5dfc492e3314b83ddc261e0d2725cffb49240602831812e1a1eb7ec48  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-8d9598d8638.tar.gz
-    10e64908187420a7d0cd78c91cfa71a0fe2a5cf4e95a25f3c656d4883b3e531b  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-8d9598d8638.tar.gz.hash
-    36018950fc6bfb3d3b8b6e51bc03b1849c0f8341099c5ce20b76fe9547498ebe  x86_64-w64-mingw32/zlib/zlib-1.2.11-6fe3dd65f08.tar.gz
-    c209c56950b8d6e5276204f7bf40879f677b5f36172367cfc6d4e6912e3166da  x86_64-w64-mingw32/zlib/zlib-1.2.11-6fe3dd65f08.tar.gz.hash
+    1bf48fab43a44192c521b48c2a2c8126998f495dd180cb23f773631fdbe78ebe  x86_64-w64-mingw32/bdb/bdb-4.8.30-64283512271.tar.gz
+    66558671238c56e274897aa5227d142b1c4278d003480d2416703f91c9ab4256  x86_64-w64-mingw32/bdb/bdb-4.8.30-64283512271.tar.gz.hash
+    309743b98ebc9f85cb61dc81bb5f79c4da23afb17efa7e41e89a71e7c5258ab2  x86_64-w64-mingw32/boost/boost-1_70_0-b493ba0d7b6.tar.gz
+    eabe75983eaeb2f2b5dca8d0adfa4d7e35547ccd4477864647018e029e55c547  x86_64-w64-mingw32/boost/boost-1_70_0-b493ba0d7b6.tar.gz.hash
+    bc624d283f5e3eb3051b1fe747da2afaf71efa952c139c8d3966e840f505ae51  x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-8f8ced173ad.tar.gz
+    23f60932ad63b833e1b486925dfffa6a3ce024b39f847c687326e9f14b19a498  x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-8f8ced173ad.tar.gz.hash
+    6ec0739c542e46886b6c08de5948724d2a7235f08c1e7df3b729ba694560f050  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-d1127027bd2.tar.gz
+    f16bc8bd50492a01d3f6a79df4aab901f82177f11f205a67e44d3b6ca36976ab  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-d1127027bd2.tar.gz.hash
+    3154d70555f8841a7b2872243d74a22c2b2bc2be31f3f67b89b9ac42ac730133  x86_64-w64-mingw32/openssl/openssl-1.0.1k-a939347882b.tar.gz
+    337fc8f37e0be55e4342a7a33b4c9d28a96237588482d4e960b7b917dc014527  x86_64-w64-mingw32/openssl/openssl-1.0.1k-a939347882b.tar.gz.hash
+    3db78748cd5501d78c1e5509f53672294e8ecb7ef89d41d0cfd657267ff83fba  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-47c716cf4e2.tar.gz
+    144a559667bb6ef89557b5ae4b625972be5cfe721232c2a5385eb580fe0a5732  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-47c716cf4e2.tar.gz.hash
+    182a0c77eea396236bf6b8fa944b2ced2d4f59dbde2f7cc401bb914885c040b9  x86_64-w64-mingw32/qt/qt-5.9.8-e226a5e0a14.tar.gz
+    ba5fb45b7a3dd0037b6a3d2fdca8c6e46cafd4a445208425b64b3449294c4e6c  x86_64-w64-mingw32/qt/qt-5.9.8-e226a5e0a14.tar.gz.hash
+    6d6a4dc8c78cb0f43e908ef8873e28588668f48c6d7cd5da6e88d55a8b44d683  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-8d9598d8638.tar.gz
+    74e5101de377145c7a3c4a47e70a08ae495e4ed5e0829031c2375d66e7146365  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-8d9598d8638.tar.gz.hash
+    da259f8581f3942d412f78db52c6b44544fe96f5490413a191b1c8454ad9dff5  x86_64-w64-mingw32/zlib/zlib-1.2.11-6fe3dd65f08.tar.gz
+    2cc203bdb48c366f0b97c82ec25b380320e2550b704cfedb429e74cd0f7b2b6e  x86_64-w64-mingw32/zlib/zlib-1.2.11-6fe3dd65f08.tar.gz.hash
 - release: 0.19.2-win-unsigned
 - name: bitcoin-global-win-0.19
 - type: build
